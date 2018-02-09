@@ -28,10 +28,12 @@ def numberwang(s):
             total += n_fib(fib)
             fib = 0
             deuces = False
+        else:
+            total += 1
     if fib:
         total+= n_fib(fib)
     return(total)
 
-SOLVE_ME = 11111119291
+SOLVE_ME = 9
 
 print(numberwang(SOLVE_ME))
